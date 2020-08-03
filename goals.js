@@ -43,9 +43,7 @@ function fadePage() {
 }
 
 //flip all cards
-
-
-lastCard = document.getElementById('last-card');
+lastCard = document.getElementsByClassName('last-card')[0];
 
 lastCard.addEventListener('click', event => {
 	freezeClicks = true;
