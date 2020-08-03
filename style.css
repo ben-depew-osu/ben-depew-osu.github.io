@@ -154,6 +154,10 @@ p {
 	align-items:center;
 }
 
+/*Basic flip card implementation copied from: https://www.w3schools.com/howto/howto_css_flip_card.asp;
+
+This specific .card container is what you can call the static portion of the item, it sets the height
+and width of the slot*/
 .goals .card {
 	cursor:pointer;
 	background-color:#fffe7a;
@@ -198,7 +202,11 @@ p {
 	text-align: center;
 	vertical-align:center;
 }
+/*Basic flip card implementation copied from: https://www.w3schools.com/howto/howto_css_flip_card.asp;
 
+This inner is another placeholder for the card. This will contain the front and back sides.
+
+This inner is the thing that actually flips, you could call it the card itself, the previous container is only for 2d placement holding.*/
 .card-inner {
 	position:relative;
 	width:100%;
@@ -208,6 +216,9 @@ p {
 	transform-style: preserve-3d;
 }
 
+/*Basic flip card implementation copied from: https://www.w3schools.com/howto/howto_css_flip_card.asp;
+
+Flip the "card" on hovering*/
 .card:hover .card-inner{
 	transform: rotateY(180deg);
 }
@@ -226,6 +237,9 @@ p {
 	transition:opacity 1s;
 }
 
+/*Basic flip card implementation copied from: https://www.w3schools.com/howto/howto_css_flip_card.asp;
+
+Hide the backs of each card so that the other is visible when the card is flipped*/
 .card-back, .card-front {
 	position:absolute;
 	width:350px;
@@ -236,6 +250,9 @@ p {
 	text-align:left;
 }
 
+/*Basic flip card implementation copied from: https://www.w3schools.com/howto/howto_css_flip_card.asp;
+
+Flip the card-back to the back side of the inner*/
 .card-back {
 	transform:rotateY(180deg);
 }
