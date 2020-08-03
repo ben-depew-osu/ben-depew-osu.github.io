@@ -1,6 +1,6 @@
 
 
-slides = ["graduation.jpeg", "davis.jpg", "soccer.jpg", "flog.jpg", "berlin.jpg", "birks.jpg"];
+slides = ["graduation.jpeg", "davis.JPG", "soccer.JPG", "flog.JPG", "berlin.jpg", "birks.jpg"];
 
 captions = ["Photograph taken for my graduation from UC Davis", "Photograph of Nick and me celebrating the graduation of our friend, Christian", "Photograph of my championship winning intramural soccer team", "Photograph of Max, Keziah, and me at the music festival 'Camp Flog Gnaw'", "Photograph of me at the Berlin Wall", "Photograph of me and my graduating friends from UC Davis"];
 
